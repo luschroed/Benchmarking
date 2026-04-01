@@ -21,9 +21,9 @@ We benchmark six ambient RNA removal tools across a diverse panel of nine datase
 | [CellBender](https://github.com/broadinstitute/CellBender) | Variational autoencoder | Yes | Droplet |
 | [SoupX](https://github.com/constantAmateur/SoupX) | Maximum likelihood / proportional subtraction | Yes | Droplet |
 | [DecontX](https://github.com/campbio/celda) | Bayesian mixture model | No | Droplet + well-plate |
-| [scCDC](https://github.com/ZhangLabGT/scCDC) | Gene-selective contamination correction | No | Droplet (+ claimed general) |
+| [scCDC](https://github.com/ZJU-UoE-CCW-LAB/scCDC) | Gene-selective contamination correction | No | Droplet (+ claimed general) |
 | [scAR](https://github.com/Novartis/scAR) | Variational autoencoder | Yes | Droplet |
-| [CellClear](https://github.com/lcmicrobiome/CellClear) | Non-negative matrix factorisation | Yes | Droplet |
+| [CellClear](https://github.com/WhiteRabBio/CellClear) | Non-negative matrix factorisation | Yes | Droplet |
 
 > FastCAR was considered but excluded: it targets differential gene expression optimisation rather than global ambient removal, making it incompatible with the ground-truth metrics used here.
 
