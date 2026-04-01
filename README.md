@@ -10,9 +10,9 @@ This repository contains all code and supporting information to reproduce the an
 
 ## Overview
 
-Ambient RNA contamination is a pervasive artefact of droplet-based single-cell and single-nucleus RNA sequencing (sxRNA-seq). Multiple computational tools exist to correct for it, but consensus on which performs best — and under what conditions — is lacking, particularly across experimental platforms and at scale.
+Ambient RNA contamination is a pervasive artefact of droplet-based single-cell and single-nucleus RNA sequencing (sxRNA-seq). Multiple computational tools exist to correct for it, but consensus on which performs best and under what conditions is lacking, particularly across experimental platforms and at scale.
 
-We benchmark six ambient RNA removal tools across a diverse panel of nine datasets, including technical benchmarking controls (human-mouse cell line mixtures), complex tissue datasets, and a well-plate-based platform. A key contribution is the explicit quantification of **artificial count inflation** — corrected values exceeding raw counts — as a distinct and previously undercharacterised failure mode.
+We benchmark six ambient RNA removal tools across a diverse panel of nine datasets, including technical benchmarking controls (human-mouse cell line mixtures), complex tissue datasets, and a well-plate-based platform. A key contribution is the explicit quantification of **artificial count inflation**, i.e. corrected values exceeding raw counts as a distinct and previously undercharacterised failure mode.
 
 ### Tools benchmarked
 
@@ -27,11 +27,14 @@ We benchmark six ambient RNA removal tools across a diverse panel of nine datase
 
 > FastCAR was considered but excluded: it targets differential gene expression optimisation rather than global ambient removal, making it incompatible with the ground-truth metrics used here.
 
-### Datasets
 
-- **6 hgmm datasets** — human-mouse cell line mixtures from 10x Genomics (1k–20k cells), providing partial quantitative ground truth for sensitivity, specificity, and precision
-- **2 droplet-based complex tissue datasets** — PBMC scRNA-seq and prefrontal cortex snRNA-seq
-- **1 well-plate-based dataset** — BD Rhapsody white blood cell (WBC) dataset
+| Dataset | Platform | Accession | Cells |
+|---|---|---|---|
+| hgmm 1k–20k (6 datasets) | 10x Chromium | [10x Genomics website](https://www.10xgenomics.com/datasets) | 1,000–20,000 |
+| PBMC | 10x Chromium | [10x Genomics website](https://www.10xgenomics.com/datasets) | — |
+| Prefrontal cortex (PFC) snRNA-seq | 10x Chromium 3' v3 | [GSE168408](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE168408) | 158,490 |
+| White blood cells (WBC) | BD Rhapsody WTA | [GSE234676](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE234676) | 120,602 |
+
 
 ### Key findings
 
@@ -56,15 +59,12 @@ Due to dependency conflicts between tools, separate environments are provided pe
 
 ---
 
-## Data availability
-
-*GEO accessions and processed data links to be added upon publication.*
-
----
-
 ## Citation
 
 *Citation details to be updated upon publication.*
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19348468.svg)](https://doi.org/10.5281/zenodo.19348468)
+
 
 ---
 
