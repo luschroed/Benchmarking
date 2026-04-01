@@ -31,10 +31,9 @@ We benchmark six ambient RNA removal tools across a diverse panel of nine datase
 | Dataset | Platform | Accession | Cells |
 |---|---|---|---|
 | hgmm 1k–20k (6 datasets) | 10x Chromium | [10x Genomics website](https://www.10xgenomics.com/datasets) | 1,000–20,000 |
-| PBMC | 10x Chromium | [10x Genomics website](https://www.10xgenomics.com/datasets) | — |
-| Prefrontal cortex (PFC) snRNA-seq | 10x Chromium 3' v3 | [GSE168408](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE168408) | 158,490 |
-| White blood cells (WBC) | BD Rhapsody WTA | [GSE234676](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE234676) | 120,602 |
-
+| PBMC | 10x Chromium | [10x Genomics website](https://www.10xgenomics.com/datasets) | ~53,0000 |
+| White blood cells (WBC) | BD Rhapsody WTA | [GSE234676](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE234676) | ~132,000 |
+| Prefrontal cortex (PFC) snRNA-seq | 10x Chromium 3' v3 | [GSE168408](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE168408) | ~172,000 |
 
 ### Key findings
 
