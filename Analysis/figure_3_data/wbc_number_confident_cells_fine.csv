@@ -1,0 +1,8 @@
+Tool,Classical monocytes,Tcm/Naive helper T cells,CD16+ NK cells,Tem/Temra cytotoxic T cells,Intermediate macrophages,Non-classical monocytes,Tem/Trm cytotoxic T cells,Naive B cells,Regulatory T cells,Tcm/Naive cytotoxic T cells,MAIT cells,Monocytes,Mast cells,pDC,T(agonist),Tem/Effector helper T cells,Memory B cells,DC2,Macrophages,Age-associated B cells,Neutrophil-myeloid progenitor,NK cells,HSC/MPP,Plasma cells,Megakaryocytes/platelets,Migratory DCs,Late erythroid,Double-positive thymocytes
+Uncorrected,38588,13199,5473,3124,2527,1561,1096,1052,883,732,625,582,571,310,290,287,242,223,186,178,66,54,15,12,,,,
+DecontX,38443,12773,5362,3277,2736,1628,1353,858,1070,851,541,317,622,327,356,433,203,220,,120,70,32,20,,41,9,,
+SoupX,38419,13470,5601,2821,2679,1641,1482,974,930,781,597,455,582,312,288,82,243,239,66,183,69,,15,12,50,,,
+scAR,39904,11630,6537,2465,1274,1542,721,1135,716,,,1959,513,318,324,708,,140,155,111,,,,,118,,120,
+CellBender,39511,14467,5435,2939,3562,1700,1039,1214,666,409,481,24,664,324,409,46,,258,,225,79,,20,35,51,39,,49
+DecontX°,39190,13601,5484,3325,3150,1638,1258,904,795,706,576,75,598,312,262,307,320,230,57,167,65,83,18,12,42,,,
+scCDC,41457,13116,6024,3456,1770,1694,1178,1290,836,286,528,1615,634,312,182,935,252,269,1112,230,72,,17,12,,,,
