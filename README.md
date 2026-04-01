@@ -2,7 +2,7 @@
 
 This repository contains all code and supporting information to reproduce the analyses presented in:
 
-> **"Benchmarking ambient RNA removal tools for single-cell RNA sequencing across droplet-based and well-plate platforms reveals artificial count inflation by scAR and CellClear"**  
+> **"Benchmarking ambient RNA removal across droplet and well-plate platforms reveals artificial count generation as a critical failure mode of scAR and CellClear"**  
 > Lukas Schroeder, Susanne Gerber, Nicolas Ruffini  
 > *Institute of Human Genetics, University Medical Center Mainz* | *(preprint/submitted)*
 
